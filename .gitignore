@@ -1,4 +1,7 @@
-.mp4
 *.3gp
 *.mp4
 *.webm
+*.zip
+*.exe
+Python/*
+old_files/*
