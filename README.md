@@ -4,6 +4,7 @@ Rickroll someone with just a Raspberry Pico
 It makes you have the ability of rickrolling someone just by plugging a Raspberry Pico on their PC
 ## Requirements
 Raspberry Pi Pico, USB cable, a PC
+
 Also a jumper wire (unless you wanna get rickrolled)
 ## Installation 
 1) Install the required software in your Pico as described here: https://github.com/dbisu/pico-ducky
