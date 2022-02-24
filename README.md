@@ -1,15 +1,9 @@
-# Pico Ducky Rickroll
-Rickroll someone with just a Raspberry Pico
-## What does it do?
-It makes you have the ability of rickrolling someone just by plugging a Raspberry Pico on their PC
-## Requirements
-Raspberry Pi Pico, USB cable, a PC
-
-Also a jumper wire (unless you wanna get rickrolled)
-## Installation 
-1) Install the required software in your Pico as described here: https://github.com/dbisu/pico-ducky
-2) Connect the GPIO 0 of the Pico to a Ground (unless you wanna get rickrolled)
-3) Download `payload.dd` and place it on the main directory of your Pico
-4) Unplug the Pico and place it on a computer to make sure it work
-## Should I use it?
-Although you can use it, I am planning on making a better version of it where you can select the video to play, the time to play, etc. Still, if all you want is rickroll someone, go ahead and use it
+# BasUSB rickroll
+## What is this?
+This is pretty much a script to rickroll someone using a BadUSB - also known as a Ducky
+## What do I need?
+A device that can run Duckyscript payloads
+## Where is the script?
+The file `payload.dd` contains the script, that's what you must use. Althought, in order to work, the PC must have an internet connection
+## I don't have a Ducky / I don't have enough money to buy one
+Then use a Raspberry Pico. It is quite cheap, around 5 bucks, and can be easily configured to run Ducky scripts. Check [this](https://github.com/dbisu/pico-ducky) repository for more info
