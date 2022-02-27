@@ -1,4 +1,4 @@
-# BasUSB rickroll
+# BadUSB rickroll
 ## What is this?
 This is pretty much a script to rickroll someone using a BadUSB - also known as a Ducky
 ## What do I need?
